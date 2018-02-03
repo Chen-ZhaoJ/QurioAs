@@ -9,10 +9,10 @@
 /* Begin PBXBuildFile section */
 		0989FBE8202562670016F70D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0989FBE7202562670016F70D /* GoogleService-Info.plist */; };
 		09BA7417202342F3007049BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BA7416202342F3007049BA /* AppDelegate.swift */; };
-		09BA7419202342F3007049BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BA7418202342F3007049BA /* ViewController.swift */; };
 		09BA741C202342F3007049BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09BA741A202342F3007049BA /* Main.storyboard */; };
 		09BA741E202342F3007049BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09BA741D202342F3007049BA /* Assets.xcassets */; };
 		09BA7421202342F3007049BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09BA741F202342F3007049BA /* LaunchScreen.storyboard */; };
+		BE3D355D2025A1F000FBAD7C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3D355C2025A1F000FBAD7C /* HomeViewController.swift */; };
 		E96F5E86B4297E6AAF89D6B3 /* Pods_Qurious.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 292DDA70C93CEE0DD741CD46 /* Pods_Qurious.framework */; };
 /* End PBXBuildFile section */
 
@@ -20,12 +20,12 @@
 		0989FBE7202562670016F70D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		09BA7413202342F3007049BA /* Qurious.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Qurious.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09BA7416202342F3007049BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		09BA7418202342F3007049BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		09BA741B202342F3007049BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		09BA741D202342F3007049BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09BA7420202342F3007049BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		09BA7422202342F3007049BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		292DDA70C93CEE0DD741CD46 /* Pods_Qurious.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Qurious.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE3D355C2025A1F000FBAD7C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		C578E298FA3AA082A5860C95 /* Pods-Qurious.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Qurious.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Qurious/Pods-Qurious.debug.xcconfig"; sourceTree = "<group>"; };
 		FB7E129EB9ECB8EE476E2B91 /* Pods-Qurious.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Qurious.release.xcconfig"; path = "Pods/Target Support Files/Pods-Qurious/Pods-Qurious.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -64,12 +64,12 @@
 			isa = PBXGroup;
 			children = (
 				09BA7416202342F3007049BA /* AppDelegate.swift */,
-				09BA7418202342F3007049BA /* ViewController.swift */,
 				09BA741A202342F3007049BA /* Main.storyboard */,
 				09BA741D202342F3007049BA /* Assets.xcassets */,
 				09BA741F202342F3007049BA /* LaunchScreen.storyboard */,
 				09BA7422202342F3007049BA /* Info.plist */,
 				0989FBE7202562670016F70D /* GoogleService-Info.plist */,
+				BE3D355C2025A1F000FBAD7C /* HomeViewController.swift */,
 			);
 			path = Qurious;
 			sourceTree = "<group>";
@@ -227,8 +227,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09BA7419202342F3007049BA /* ViewController.swift in Sources */,
 				09BA7417202342F3007049BA /* AppDelegate.swift in Sources */,
+				BE3D355D2025A1F000FBAD7C /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
