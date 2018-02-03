@@ -14,7 +14,11 @@ class HomeViewController: UIViewController , UITabBarControllerDelegate {
     func tabBarController(_ tabBarController: UITabBarController, didSelect viewController: UIViewController) {
         if let index = tabBarController.viewControllers?.index(of: viewController){
             if index == 2 && tabBarController.selectedViewController == viewController{
-                
+                if let navigationController = self.navigationController {
+                    navigationController.viewControllers = [
+                        navigationController.viewControllers[0]
+                    ]
+                }
             }
         }
     }
