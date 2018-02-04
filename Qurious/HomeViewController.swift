@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import Firebase
+import FirebaseAuth
 
 class HomeViewController: UIViewController , UITabBarControllerDelegate {
 
@@ -20,6 +22,32 @@ class HomeViewController: UIViewController , UITabBarControllerDelegate {
                     ]
                 }
             }
+        }
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        
+        let userDefaults = UserDefaults.standard
+        //        userDefaults.set(true, forKey: "isLogined")
+        
+        var isLogined = userDefaults.value(forKey: "isLogined") as? Bool
+        if isLogined != nil && isLogined! {
+            print("123")
+            
+            //            let appDelegate = UIApplication.shared.delegate as! AppDelegate
+            //            //show window
+            //            var VC = self.storyboard?.instantiateViewController(withIdentifier: "VC")
+            //            appDelegate.window?.rootViewController = VC
+            
+            
+        }
+        else{
+            print("456")
+            var logVC = self.storyboard?.instantiateViewController(withIdentifier: "LogVC")
+            //            let appDelegate = UIApplication.shared.delegate as! AppDelegate
+            //show window
+            //            appDelegate.window?.rootViewController = LogVC
+            present(logVC!, animated: true, completion: nil)
         }
     }
     
