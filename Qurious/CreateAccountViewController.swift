@@ -12,8 +12,18 @@ import FirebaseAuth
 
 class CreateAccountViewController: UIViewController {
     lazy var ref = Database.database().reference()
+    @IBAction func picture1(_ sender: Any) {
+    }
+    @IBAction func picture2(_ sender: Any) {
+    }
+    @IBAction func picture3(_ sender: Any) {
+    }
+    @IBOutlet weak var picture1: UIButton!
+    @IBOutlet weak var picture2: UIButton!
+    @IBOutlet weak var picture3: UIButton!
     @IBAction func createAction(_ sender: Any) {
         let u = validatePassword(passwd: emailTextField.text!)
+        
         
         
         if emailTextField.text == "" || passwordTextField.text != retypepassword.text || u != "OK" {
