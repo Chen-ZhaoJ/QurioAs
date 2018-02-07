@@ -266,17 +266,10 @@
                                     <action selector="picture3:" destination="qow-zh-TUe" eventType="touchUpInside" id="7gA-hL-VOd"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Select your represent image" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hum-eS-X5M">
-                                <rect key="frame" x="36" y="289" width="287" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tsq-dP-WRN">
                                 <rect key="frame" x="54" y="349" width="65" height="59"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="未命名-10-03.png"/>
+                                <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="picture1:" destination="qow-zh-TUe" eventType="touchUpInside" id="7ne-Hc-0Lk"/>
                                 </connections>
@@ -612,7 +605,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UbD-7d-ZOZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2177" y="-542"/>
+            <point key="canvasLocation" x="2484" y="-548"/>
         </scene>
         <!--Home-->
         <scene sceneID="ZMK-K4-o2V">
@@ -1103,6 +1096,5 @@
         <image name="honer" width="35" height="35"/>
         <image name="loginbackground" width="416" height="739"/>
         <image name="logo" width="75" height="30"/>
-        <image name="未命名-10-03.png" width="576" height="576"/>
     </resources>
 </document>
