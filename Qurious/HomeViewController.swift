@@ -55,6 +55,7 @@ class HomeViewController: UIViewController , UITabBarControllerDelegate,UICollec
     }
     ////////////////////////////////////////////
  
+
     @IBOutlet weak var searchBar: UISearchBar!
     @IBOutlet weak var collectionView: UICollectionView!
     
