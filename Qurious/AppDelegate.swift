@@ -20,8 +20,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         FirebaseApp.configure()
         // Override point for customization after application launch.
         var abc:UITabBarController = window?.rootViewController as! UITabBarController
-        //        abc.tabBar.items![1].title = "blue"
-        //        abc.tabBar.items![0].title = "Gray"
         abc.selectedIndex = 2
         return true
     }

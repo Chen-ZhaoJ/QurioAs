@@ -10,15 +10,18 @@
 		0989FBE8202562670016F70D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0989FBE7202562670016F70D /* GoogleService-Info.plist */; };
 		09BA7417202342F3007049BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BA7416202342F3007049BA /* AppDelegate.swift */; };
 		09BA741C202342F3007049BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09BA741A202342F3007049BA /* Main.storyboard */; };
-		09BA741E202342F3007049BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09BA741D202342F3007049BA /* Assets.xcassets */; };
 		09BA7421202342F3007049BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09BA741F202342F3007049BA /* LaunchScreen.storyboard */; };
 		9247010A2027063B00352B93 /* PersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924701092027063B00352B93 /* PersonViewController.swift */; };
-		9247010C2027135400352B93 /* 未命名-10-03.png in Resources */ = {isa = PBXBuildFile; fileRef = 9247010B2027135400352B93 /* 未命名-10-03.png */; };
 		9278752A2026F44D007C1E37 /* LogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927875292026F44D007C1E37 /* LogViewController.swift */; };
 		9278752C2026F573007C1E37 /* ConferenceroomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9278752B2026F573007C1E37 /* ConferenceroomViewController.swift */; };
 		9278752E2026F83F007C1E37 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9278752D2026F83F007C1E37 /* CreateAccountViewController.swift */; };
 		927875302026F84C007C1E37 /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9278752F2026F84C007C1E37 /* ResetPasswordViewController.swift */; };
 		BE3D355D2025A1F000FBAD7C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3D355C2025A1F000FBAD7C /* HomeViewController.swift */; };
+		BE493E9A202A091B00680DD1 /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE493E99202A091B00680DD1 /* HomeCollectionViewCell.swift */; };
+		BE493E9C202A0BBA00680DD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE493E9B202A0BBA00680DD1 /* Assets.xcassets */; };
+		BE493E9E202A0CE300680DD1 /* SubjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE493E9D202A0CE300680DD1 /* SubjectsViewController.swift */; };
+		BE493EA0202A0E4A00680DD1 /* SubjectsVCTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE493E9F202A0E4A00680DD1 /* SubjectsVCTableViewCell.swift */; };
+		BE4C7E4E2028890A0010435A /* AskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4C7E4D2028890A0010435A /* AskViewController.swift */; };
 		E96F5E86B4297E6AAF89D6B3 /* Pods_Qurious.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 292DDA70C93CEE0DD741CD46 /* Pods_Qurious.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,17 +30,20 @@
 		09BA7413202342F3007049BA /* Qurious.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Qurious.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09BA7416202342F3007049BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		09BA741B202342F3007049BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		09BA741D202342F3007049BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09BA7420202342F3007049BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		09BA7422202342F3007049BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		292DDA70C93CEE0DD741CD46 /* Pods_Qurious.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Qurious.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		924701092027063B00352B93 /* PersonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonViewController.swift; sourceTree = "<group>"; };
-		9247010B2027135400352B93 /* 未命名-10-03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "未命名-10-03.png"; sourceTree = "<group>"; };
 		927875292026F44D007C1E37 /* LogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogViewController.swift; sourceTree = "<group>"; };
 		9278752B2026F573007C1E37 /* ConferenceroomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConferenceroomViewController.swift; sourceTree = "<group>"; };
 		9278752D2026F83F007C1E37 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 		9278752F2026F84C007C1E37 /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
 		BE3D355C2025A1F000FBAD7C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		BE493E99202A091B00680DD1 /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		BE493E9B202A0BBA00680DD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE493E9D202A0CE300680DD1 /* SubjectsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectsViewController.swift; sourceTree = "<group>"; };
+		BE493E9F202A0E4A00680DD1 /* SubjectsVCTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectsVCTableViewCell.swift; sourceTree = "<group>"; };
+		BE4C7E4D2028890A0010435A /* AskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AskViewController.swift; sourceTree = "<group>"; };
 		C578E298FA3AA082A5860C95 /* Pods-Qurious.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Qurious.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Qurious/Pods-Qurious.debug.xcconfig"; sourceTree = "<group>"; };
 		FB7E129EB9ECB8EE476E2B91 /* Pods-Qurious.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Qurious.release.xcconfig"; path = "Pods/Target Support Files/Pods-Qurious/Pods-Qurious.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -75,9 +81,10 @@
 		09BA7415202342F3007049BA /* Qurious */ = {
 			isa = PBXGroup;
 			children = (
+				BE493E9B202A0BBA00680DD1 /* Assets.xcassets */,
+				BE493E9D202A0CE300680DD1 /* SubjectsViewController.swift */,
 				09BA7416202342F3007049BA /* AppDelegate.swift */,
 				09BA741A202342F3007049BA /* Main.storyboard */,
-				09BA741D202342F3007049BA /* Assets.xcassets */,
 				09BA741F202342F3007049BA /* LaunchScreen.storyboard */,
 				09BA7422202342F3007049BA /* Info.plist */,
 				0989FBE7202562670016F70D /* GoogleService-Info.plist */,
@@ -87,7 +94,9 @@
 				9278752D2026F83F007C1E37 /* CreateAccountViewController.swift */,
 				9278752F2026F84C007C1E37 /* ResetPasswordViewController.swift */,
 				924701092027063B00352B93 /* PersonViewController.swift */,
-				9247010B2027135400352B93 /* 未命名-10-03.png */,
+				BE4C7E4D2028890A0010435A /* AskViewController.swift */,
+				BE493E99202A091B00680DD1 /* HomeCollectionViewCell.swift */,
+				BE493E9F202A0E4A00680DD1 /* SubjectsVCTableViewCell.swift */,
 			);
 			path = Qurious;
 			sourceTree = "<group>";
@@ -172,10 +181,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				09BA7421202342F3007049BA /* LaunchScreen.storyboard in Resources */,
-				9247010C2027135400352B93 /* 未命名-10-03.png in Resources */,
 				0989FBE8202562670016F70D /* GoogleService-Info.plist in Resources */,
-				09BA741E202342F3007049BA /* Assets.xcassets in Resources */,
 				09BA741C202342F3007049BA /* Main.storyboard in Resources */,
+				BE493E9C202A0BBA00680DD1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,13 +254,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE4C7E4E2028890A0010435A /* AskViewController.swift in Sources */,
+				BE493E9E202A0CE300680DD1 /* SubjectsViewController.swift in Sources */,
 				9278752E2026F83F007C1E37 /* CreateAccountViewController.swift in Sources */,
 				09BA7417202342F3007049BA /* AppDelegate.swift in Sources */,
 				9278752C2026F573007C1E37 /* ConferenceroomViewController.swift in Sources */,
 				927875302026F84C007C1E37 /* ResetPasswordViewController.swift in Sources */,
+				BE493E9A202A091B00680DD1 /* HomeCollectionViewCell.swift in Sources */,
 				BE3D355D2025A1F000FBAD7C /* HomeViewController.swift in Sources */,
 				9278752A2026F44D007C1E37 /* LogViewController.swift in Sources */,
 				9247010A2027063B00352B93 /* PersonViewController.swift in Sources */,
+				BE493EA0202A0E4A00680DD1 /* SubjectsVCTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
