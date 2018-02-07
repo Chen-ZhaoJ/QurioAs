@@ -11,6 +11,9 @@ import UIKit
 class SubjectsViewController: UIViewController , UITableViewDataSource, UITableViewDelegate , UISearchBarDelegate {
 
  
+    @IBAction func subject(segue:UIStoryboardSegue){
+        
+    }
     @IBOutlet weak var table: UITableView!
     @IBOutlet weak var searchBar: UISearchBar!
     
@@ -41,10 +44,20 @@ class SubjectsViewController: UIViewController , UITableViewDataSource, UITableV
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-//        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-//        let nextVC = storyboard.instantiateViewController(withIdentifier: "NextVC")  as! CountryViewController
-//        nextVC.receiveData = [currentAnimalArray[indexPath.row]]
-//        present(nextVC, animated: true, completion: nil)
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let anserVC = storyboard.instantiateViewController(withIdentifier: "AnserVC")  as! AnserViewController
+        var b = [Animal]()
+        if indexPath.row == 0{
+            b.append(Animal(name: "Econ請問經濟學在做什麼？", category: .unsolved, image: "8"))
+            b.append(Animal(name: "ggg個體經濟學偏好理論", category: .unsolved, image: "8"))
+            b.append(Animal(name: "hhh請問GDP/GNP的差別", category: .unsolved, image: "8"))
+
+            b.append(Animal(name: "邊際成本問題", category: .solved, image: "7"))
+            b.append(Animal(name: "什麼是邊際效用遞減？", category: .solved, image: "7"))
+            b.append(Animal(name: "Morty", category: .solved, image: "7"))
+            anserVC.animalArray = b
+        }
+        present(anserVC, animated: true, completion: nil)
         
     }
     
