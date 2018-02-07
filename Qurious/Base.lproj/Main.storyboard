@@ -287,6 +287,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="loginbackground" translatesAutoresizingMaskIntoConstraints="NO" id="Rj5-nf-Ntm">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Log In" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Rv-EO-18Z">
                                 <rect key="frame" x="16" y="20" width="134" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -357,7 +361,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QlN-M4-Wwg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-463" y="-2853"/>
+            <point key="canvasLocation" x="-463.768115942029" y="-2853.2608695652175"/>
         </scene>
         <!--Reset Password View Controller-->
         <scene sceneID="0EO-Jt-7Oa">
@@ -762,6 +766,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="loginbackground" width="416" height="739"/>
         <image name="未命名-10-03.png" width="576" height="576"/>
     </resources>
 </document>
